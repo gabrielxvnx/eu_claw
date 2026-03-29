@@ -1,6 +1,6 @@
-# FinBot v2 🤖
+# Eu Claw 🤖 (Claw Bot Open Source)
 
-Assistente financeiro pessoal com suporte a áudio (Whisper), visão (Llama 3.2) e extração estruturada (PydanticAI). Focado em custo zero usando a Groq API.
+O **Eu Claw** é uma versão gratuita e open-source do `claw_bot`. Ele foi projetado para ser seu assistente pessoal e financeiro inteligente, processando áudio, imagens e texto com custo zero de operação.
 
 ## 🚀 Início Rápido (em < 2 min)
 
@@ -35,13 +35,13 @@ docker-compose up -d
 - ✅ **Inteligência**: Processamento via PydanticAI (Llama 3.1 70B).
 - ✅ **Insights**: Feedback financeiro automático.
 
-## � Próximas Funcionalidades (Roadmap)
+## 🚀 Próximas Funcionalidades (Roadmap)
 
 - 📊 **Planilha em Tempo Real**: Sincronização automática de despesas com Google Sheets/Excel.
 - 📅 **Gestão de Calendário**: Agendamento e consulta de compromissos (estilo Calendly) com notificações proativas.
 - 📧 **Resumo de Gmail**: Consulta e sumarização de e-mails recentes com alertas inteligentes.
 
-## �📁 Documentação
+## 📁 Documentação
 
 - [Arquitetura](./docs/architecture.md)
 - [Guia de Instalação (Setup)](./docs/setup.md)
