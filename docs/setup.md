@@ -51,3 +51,38 @@ O arquivo `.env` é o coração da sua configuração. Abaixo explicamos **o que
 Substituímos o tradicional `pip` pelo **`uv`** porque:
 1.  **Velocidade**: O `uv` é escrito em Rust e é até 100x mais rápido que o pip.
 2.  **Reprodutibilidade**: Gerencia dependências de forma muito mais rigorosa, garantindo que o bot rode igual no seu PC e no servidor/Docker.
+
+### Como usar o `uv` no dia-a-dia
+
+1.  **Instalação Inicial**:
+    O comando abaixo cria a pasta `.venv` e instala tudo o que está no `pyproject.toml` ou `requirements.txt`.
+    ```bash
+    uv sync
+    ```
+
+2.  **Ativar o Ambiente (Opcional)**:
+    Se você quiser rodar comandos sem prefixar com `uv run`, ative a venv:
+    ```bash
+    # Linux / macOS
+    source .venv/bin/activate
+    
+    # Windows
+    .venv\Scripts\activate
+    ```
+
+3.  **Adicionar uma nova biblioteca**:
+    ```bash
+    uv add nome_da_biblioteca
+    ```
+
+4.  **Rodar o Bot**:
+    Você pode rodar diretamente sem ativar a venv usando:
+    ```bash
+    uv run python main.py
+    ```
+
+5.  **Modo de compatibilidade (pip)**:
+    Se você estiver acostumado com o pip:
+    ```bash
+    uv pip install -r requirements.txt
+    ```
