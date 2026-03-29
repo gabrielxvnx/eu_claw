@@ -35,7 +35,13 @@ docker-compose up -d
 - ✅ **Inteligência**: Processamento via PydanticAI (Llama 3.1 70B).
 - ✅ **Insights**: Feedback financeiro automático.
 
-## 📁 Documentação
+## � Próximas Funcionalidades (Roadmap)
+
+- 📊 **Planilha em Tempo Real**: Sincronização automática de despesas com Google Sheets/Excel.
+- 📅 **Gestão de Calendário**: Agendamento e consulta de compromissos (estilo Calendly) com notificações proativas.
+- 📧 **Resumo de Gmail**: Consulta e sumarização de e-mails recentes com alertas inteligentes.
+
+## �📁 Documentação
 
 - [Arquitetura](./docs/architecture.md)
 - [Guia de Instalação (Setup)](./docs/setup.md)
