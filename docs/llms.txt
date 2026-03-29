@@ -1,0 +1,14 @@
+# Eu Claw
+> Assistente pessoal e financeiro multimodal de custo zero.
+
+## Arquivos Principais
+- [main.py]: Handler de eventos do Telegram e fluxo principal.
+- [services/parser.py]: Lógica de extração estruturada via PydanticAI.
+- [services/ai_gateway.py]: Integração Groq (Whisper/Vision).
+- [config.py]: Configurações globais e variáveis de ambiente.
+- [docs/]: Documentação detalhada em Markdown.
+
+## Conceitos Chave
+- PydanticAI: Usado para parsear texto em objetos tipados.
+- Groq: Provedor de LLM de baixa latência e custo zero.
+- Multimodalidade: Suporte nativo a Voz (OGG) e Visão (JPG/PNG).

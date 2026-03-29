@@ -1,6 +1,6 @@
-# Eu Claw 🤖 (Claw Bot Open Source)
+# Eu Claw 🤖
 
-O **Eu Claw** é uma versão gratuita e open-source do `claw_bot`. Ele foi projetado para ser seu assistente pessoal e financeiro inteligente, processando áudio, imagens e texto com custo zero de operação.
+O **Eu Claw** é minha versão do claw_bot. Ele foi projetado para ser um assistente pessoal e financeiro inteligente, processando áudio, imagens e texto com custo zero de operação.
 
 ## 🚀 Início Rápido (em < 2 min)
 
