@@ -16,10 +16,17 @@ cp .env.example .env
 # Edite o .env com suas chaves da Groq, Telegram e Mongo
 ```
 
-### 3. Rodando o Projeto
-Com **uv**:
+### 3. Rodando o Projeto (Local)
+O `uv` gerencia seu ambiente virtual automaticamente.
+
 ```bash
+# 1. Cria o ambiente e instala dependências de uma vez
 uv sync
+
+# 2. (Opcional) Ativar o ambiente virtual manualmente
+source .venv/bin/activate
+
+# 3. Rodar o bot
 uv run python main.py
 ```
 
